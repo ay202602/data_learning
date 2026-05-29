@@ -45,7 +45,7 @@ result_man = pd.DataFrame({
     "割合（就業者数）（％）": ratio_employees_man.round(1)
 })
 
-relust_woman = pd.DataFrame({
+result_woman = pd.DataFrame({
     "労働力人口（女）": labor_woman.map("{:,.0f}".format),
     "割合（労働力人口）（％）": ratio_woman.round(1),
     "就業者数（女）": employees_woman.map("{:,.0f}".format),
@@ -53,5 +53,5 @@ relust_woman = pd.DataFrame({
 })
 
 print(result_man)
-print(relust_woman)
+print(result_woman)
 print(f"pandas version  {pd.__version__}")
