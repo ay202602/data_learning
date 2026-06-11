@@ -45,6 +45,7 @@ ax = sns.heatmap(
 
 # y軸の項目を横並びで表示
 ax.set_yticklabels(ax.get_yticklabels(), rotation=0)
+# y軸のラベル「地域」を非表示
 ax.set_ylabel("")
 
 plt.show()
