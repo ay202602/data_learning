@@ -2,12 +2,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 from pathlib import Path
+
 """東海地方（三重・愛知・岐阜・静岡）の労働力人口（男・女）数を棒グラフで表示"""
 # データ出典：総務省統計局「労働力調査」（e-Stat）
 # 取得データ：調査年,地域,労働力人口,労働力人口（男）,労働力人口（女）,就業者数,就業者数（男）,就業者数（女）
 # 調査年：1975~2020年度
 
-#グラフラベルの文字化け防止
+# グラフの文字化け防止（日本語表示）
 plt.rcParams["font.family"] = "MS Gothic"
 
 FILE_PATH = Path(__file__).parent.parent / "data" / "FEI_PREF_260525140950.csv"
