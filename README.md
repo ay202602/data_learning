@@ -1,4 +1,4 @@
-# data_larning
+# data_learning
 Pythonを用いたデータ分析についての学習記録
 
 ## データについて
