@@ -1,4 +1,4 @@
-# data_larning
+# data_learning
 Pythonを用いたデータ分析についての学習記録
 
 ## データについて
@@ -7,7 +7,7 @@ Pythonを用いたデータ分析についての学習記録
 
 ### 出典
 政府統計の総合窓口 - e-Stat
-https://www.e-stat.go.jp/
+- https://www.e-stat.go.jp/
 
 ### 加工内容
 取得したCSVから不要な列を削除して使用しています。
